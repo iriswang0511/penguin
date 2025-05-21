@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		my experience
+	</title>
+	<style>
+		h1{color:#8fbc8f;
+		   text-align:center ;
+		   font-family: "Time New Roman",Time,serif;
+		}
+		body{background:#e6e6fa;
+		}
+		h2{
+			color:#696969;
+		}
+		h4{
+			color:#696969;
+		}
+		body{
+			margin: 0;
+			}
+
+		.container{
+			width: 100vw;
+			height: 100vh;
+			display: grid;
+			grid-template-columns: 1fr 1 fr 1 fr 1fr;
+			grid-template-rows: 60px 1fr 1 fr 100px;
+			grid-gap: 10px;
+			padding: 10px;
+			box-sizing: border-box;
+
+		}
+		.container div{
+			border-width: 1px;
+			border-style: solid;
+			padding: 1;
+
+		}
+		.header{
+			grid-column-start: 1;
+			grid-column-end: 4;
+		}
+		.big-content{
+			grid-column-start: 1;
+			grid-column-end: span 2;
+			grid-row-start:2 ;
+			grid-row-end:span 2;
+		}
+		
+
+	</style>>
+</head>
+<body>
+
+
+	<div class="container">
+		<div class="header" ><h2>社團</h2>
+			<p><h4>我高中是魔術社的，但我忘得差不多了...把錢丟水裡了</h4></p>
+			<p><h4>現在是滑板社，我只能說滑板好好玩</h4></p></div>
+		<div class="big-content" ><video src="video/IMG_4535.mp4" width="400" controls muted></video>
+			<p><h4>這招叫shuvit</h4></p>
+			<p><h4>我只學會這招...現在在學ollie!<h4></p>
+		</div>
+		<div class="small-content"><h2>出去玩</h2>
+			<p><h4>我之前去韓國兩次，去金門無數次</h4></p>
+		</div>
+		<div class="small-content"><h2>特殊經歷</h2>
+		<p><h4>我的左手腕脫臼</h4></p>
+		<p><h4>我天生缺兩顆牙</h4></p>
+		<p><h4>下巴脫臼無數次</h4></p>
+	</div>
+		
+	</div>
+	
+</body>
+</html>

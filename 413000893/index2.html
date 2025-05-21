@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		h1{
+			color:#696969;
+		   text-align:center ;
+		   font-family: "Time New Roman",Time,serif;
+		   background-color: white;
+		   padding: 60px;
+		   margin: 0px;
+
+		   background-color: #f0f8ff;
+			}
+
+		body{
+			margin: 0;
+			}
+		p{
+			color:#696969;
+			margin-left: 15px;
+		}
+		p. My title{
+			
+			border-style: dashed;
+			border-width: 5px;
+			border-color: lightskyblue;
+			margin-left: 15px;
+
+		}
+		.important{
+			color: green;
+			fort-size:22px;
+		}
+		a{
+			color: blue;
+			font-style: italic;
+
+		 }
+
+		ol{
+			color:#696969;
+		  }
+
+		ul{
+			color:#696969;
+		  }
+
+		h3{
+			color:#2e8b57;
+			margin-left: 15px;
+		  }
+
+		h4{
+			color:#bc8f8f;
+			margin-left: 15px;
+		  }
+
+		nov{
+			display: flex;
+			flex-direction: row;
+			margin: 15px;
+					}
+
+		a.nov{
+			background-color: lightgray;
+			padding: 5px 10px;
+
+			}
+
+		a.nov:hover{
+					background-color: darkgray;
+					}
+		div{
+			margin-left: 15px;
+		
+			color: darkblue;
+		}
+		mark{
+			color:#2e8b57 ;
+			background:#b0c4de;
+			}
+		img{
+			margin-left: 15px;
+		}
+
+		.container{
+			width: 100vw;
+			height: 100vh;
+			display: grid;
+			grid-template-columns: 1fr 1 fr 1 fr 1fr;
+			grid-template-rows: 60px 1fr 1 fr 100px;
+			grid-gap: 10px;
+			padding: 10px;
+			box-sizing: border-box;
+			
+
+		}
+		.container div{
+			border-width: 1px;
+			border-style: solid;
+			padding: 1;
+
+		}
+		.header{
+			grid-column-start: 1;
+			grid-column-end: 4;
+		}
+		.big-content{
+			grid-column-start: 1;
+			grid-column-end: span 2;
+			grid-row-start:2 ;
+			grid-row-end:span 2;
+			background-color: #ffffe0;
+		}
+		.small-content{
+			background-color: #e6e6fa;
+		}
+		.small-content2{
+			background-color: #fff0f5;
+		}
+
+		.fooder{
+			grid-column: 1/span 3;
+			background-color: #f0fff0;
+		}
+
+
+			</style>
+	<title>自我介紹</title>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="header" ><h1>我是資圖系一A 王思云</h1></div>
+		<div class="big-content" >
+			<p>我的MBTI是<strong>ENFJ</strong></p>
+			<p>我是E人但我有時候很I(?我很喜歡講話可以講到下巴脫臼的那種,也很愛笑(我笑點超低)</p>
+			<p>我超級喜歡吃蛋糕!最喜歡<em>巴斯克蛋糕!</em>去咖啡廳一定點!</p>
+			<p>我很喜歡玩遊戲!啊我玩pubg!歡迎跟我玩,我的名字是 我想當一隻企鵝</p>
+			<p>啊我的<a class="nov" href="./schedule.html" target="_blank">schedule</a>長這樣</p>
+		</div>
+		<div class="small-content"><p class="My title"><h3>有幾點要注意</h3></p>
+			<ol>
+			<li>我很不會丟燃燒瓶。我如果拿起燃燒瓶請躲遠遠(我燒了我朋友三次。都是不小心的。。。)</li>
+			<li>如果你走在我旁邊請小心我跌倒。阿如果我跌倒不用扶我,我可以自己爬起來</li>
+			<li>如果我在吃有玉米的食物,我可能會表演牙縫塞玉米給你看。</li>
+			<li>我很喜歡用奇怪的角度拍照</li>
+			<li>請注意電話,我有可能會突然打過去跟你講幾句話</li>
+			</ol>
+		</div>
+		<div class="small-content2"><p class="My title"><h3>我要來分享我喜歡的蛋糕</h3></p>
+			<ul>
+			<li>草莓戚風蛋糕
+			<li>巧克力蛋糕
+			<li>千層蛋糕
+			</ul>
+		</div>
+		<div class="fooder">
+			<p><a class="nov" href="./experience.html" target="_blank">我的經歷</a></p>
+
+			<p><a class="nov" href="./song.html"target="_blank">我喜歡的一首歌</a></p></div>
+		</div>
+	
+</body>
+</html>
+
